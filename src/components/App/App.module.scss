@@ -1,0 +1,23 @@
+@import "../../assets/colors.scss";
+
+.app {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.day {
+  background-color: $white;
+  color: $violet;
+}
+
+.night {
+  background-color: $violet;
+  color: $white;
+}
+
+.title {
+  margin: 0;
+}
