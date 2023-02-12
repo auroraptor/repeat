@@ -2,10 +2,22 @@
 
 .app {
   text-align: center;
-  background-color: $violet;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
 }
 
+.day {
+  background-color: $white;
+  color: $black;
+}
+
+.night {
+  background-color: $violet;
+  color: white;
+}
+
+.title {
+  margin: 0;
+}
