@@ -1,12 +1,9 @@
 type Props = {
-    onChange: React.ChangeEventHandler<HTMLSelectElement>
+    onChange: React.ChangeEventHandler<HTMLInputElement>
   };
 
 export function ThemeSelect({onChange}: Props) {
   return (
-    <select onChange={onChange}>
-      <option value="day">День</option>
-      <option value="night">Ночь</option>
-    </select>
+    <input onChange={onChange} type="checkbox"></input>
   );
 }

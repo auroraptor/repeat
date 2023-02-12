@@ -5,8 +5,8 @@ import styles from './App.module.scss';
 function App() {
   const [theme, setTheme] = useState("day");
 
-  function handleThemeChange(e: React.ChangeEvent<HTMLSelectElement>) {
-    setTheme(e.target.value);
+  function handleThemeChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setTheme(e.target.checked ? "night" : "day");
   }
 
   return (
