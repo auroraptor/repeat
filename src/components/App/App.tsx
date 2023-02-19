@@ -13,7 +13,7 @@ function App() {
 
   return (
     <section className={`${styles.app} ${styles[theme]}`}>
-      <Header logo={logo}></Header>
+      <Header logo={logo} theme={theme}></Header>
       <h1 className={styles.title}>Научиться учиться</h1>
       <ThemeSelect onChange={handleThemeChange} />
     </section>
