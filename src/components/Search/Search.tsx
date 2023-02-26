@@ -8,8 +8,11 @@ type Props = {
 export function Search({ theme }: Props) {
   const search = require(`../../images/search_${theme}.svg`);
   return (
-    <>
-      <img src={search} alt="Search icon" className={styles.search}></img>
-    </>
+    <div className={styles.search}>
+      <img src={search} alt="Search icon" className={styles.icon}></img>
+      <form>
+        <input className={`${styles.input} ${styles[theme]}`}></input>
+      </form>
+    </div>
   );
 }
