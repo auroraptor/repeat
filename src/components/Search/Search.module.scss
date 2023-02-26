@@ -1,4 +1,28 @@
+@import "../../assets/colors.scss";
+
 .search {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 10px;
+}
+
+.icon {
   width: 28px;
   height: 28px;
 }
+
+.input {
+  border: none;
+  height: 28px;
+  background-color: transparent;
+}
+
+.day {
+  border-bottom: 1px solid $violet;
+}
+
+.night {
+  border-bottom: 1px solid $white;
+}
+
