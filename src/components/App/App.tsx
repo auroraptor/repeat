@@ -1,6 +1,7 @@
 import { useState} from 'react';
 import { Header } from '../Header/Header';
 import { ThemeSelect } from '../ThemeSelect/ThemeSelect';
+import { Dashboard } from '../Dashboard/Dashboard';
 import styles from './App.module.scss';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     <section className={`${styles.app} ${styles[theme]}`}>
       <Header logo={logo} theme={theme}></Header>
-      <h1 className={styles.title}>Научиться учиться</h1>
+      <Dashboard theme={theme}></Dashboard>
       <ThemeSelect onChange={handleThemeChange} />
     </section>
   );
