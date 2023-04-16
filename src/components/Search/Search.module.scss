@@ -18,11 +18,17 @@
   background-color: transparent;
 }
 
+.input:focus {
+  outline: none;
+}
+
 .day {
   border-bottom: 1px solid $violet;
+  color: $violet;
 }
 
 .night {
   border-bottom: 1px solid $white;
+  color: $white;
 }
 
