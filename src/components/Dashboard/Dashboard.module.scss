@@ -1,8 +1,45 @@
+@import "../../assets/colors.scss";
+@import "../../assets/fonts.scss";
+
 .dashboard {
+  display: grid;
+  grid-template-columns: minmax(250px, 750px) 1fr;
+  border: 3px dotted #fff;
+  padding: 73px 116px 66px 137px;
+}
+
+.column {
   display: flex;
   flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
 
 .title {
-    margin: 0;
+  margin: 0;
+  font-family: $Oswald;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 133px;
+}
+
+.subtitle {
+  font-family: $Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  // padding-top: 40px;
+  text-align: start;
+}
+
+.button {
+  font-family: $Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  background-color: transparent;
+  border: none;
 }
