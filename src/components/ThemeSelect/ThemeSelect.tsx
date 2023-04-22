@@ -1,9 +1,24 @@
-type Props = {
-    onChange: React.ChangeEventHandler<HTMLInputElement>
-  };
+import styles from "./ThemeSelect.module.scss";
 
-export function ThemeSelect({onChange}: Props) {
+type Props = {
+  onChange: React.ChangeEventHandler<HTMLInputElement>;
+};
+
+export function ThemeSelect({ onChange }: Props) {
   return (
-    <input onChange={onChange} type="checkbox"></input>
+    <div className={styles.checkbox}>
+      <label className={styles.checkbox__label} tabIndex={-1}>
+        <input
+          onChange={onChange}
+          type="checkbox"
+          name="checked"
+          id="checked"
+          className={styles.checkbox__switch}
+          aria-label="Cменить тему"
+          tabIndex={-1}
+        />
+        <i className={styles.checkbox__container} tabIndex={-1}></i>
+      </label>
+    </div>
   );
 }
