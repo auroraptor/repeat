@@ -45,14 +45,6 @@
   position: relative;
 }
 
-.day {
-  color: $violet;
-}
-
-.night {
-  color: $white;
-}
-
 .link::before,
 .link::after {
   content: "";
