@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Dashboard.module.scss";
 
 type Props = {
@@ -14,7 +15,7 @@ export function Dashboard({ theme }: Props) {
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
         </p>
-        <button className={styles.button}>Узнать</button>
+        <Link to={'/'} className={`${styles.link} ${styles[theme]}`}>Узнать</Link>
       </div>
       <img src={lead} alt="Asking question illustration"></img>
     </div>
