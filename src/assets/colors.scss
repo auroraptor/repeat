@@ -1,3 +1,5 @@
-$violet: rgba(121, 63, 180, 1);
-$white: rgba(255, 255, 255, 1);
-$black: rgba(0, 0, 0, 1);
+@use "colors" as *;
+
+$violet: colors.$violet;
+$white: colors.$white;
+$black: colors.$black;
