@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Dashboard.module.scss";
 import { Theme, Props } from "../../types";
-import * as colors from "../../assets/colors";
 
 type ThemeStyles = {
   [key in Theme]: {
@@ -15,10 +14,10 @@ export function Dashboard({ theme }: Props) {
   // Определение стилей для темы
   const themeStyles:ThemeStyles = {
     light: {
-      color: colors.violet,
+      color: 'rgba(121, 63, 180, 1)',
     },
     dark: {
-      color: colors.white,
+      color: 'rgba(255, 255, 255, 1)',
     },
   };
 
@@ -32,7 +31,7 @@ export function Dashboard({ theme }: Props) {
         </p>
         <Link
           to={"/"}
-          className={styles.link}
+          className={`${styles.link} ${styles[theme]}`}
           style={{ color: themeStyles[theme].color }}
         >
           Узнать
