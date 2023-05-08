@@ -1,0 +1,31 @@
+@import "../../assets/colors.scss";
+@import "../../assets/fonts.scss";
+
+.nav {
+  font-family: $Comfortaa;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+.light {
+  color: $violet;
+  border-bottom: 2px dotted $violet;
+}
+
+.dark {
+  color: $white;
+  border-bottom: 2px dotted $white;
+}
+
+.dark:hover, .light:hover {
+  border-bottom: 2px solid;
+}
