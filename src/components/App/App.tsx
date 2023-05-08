@@ -2,6 +2,7 @@ import { useState} from 'react';
 import { Header } from '../Header/Header';
 import { ThemeSelect } from '../ThemeSelect/ThemeSelect';
 import { Dashboard } from '../Dashboard/Dashboard';
+import { NavBar } from '../NavBar/NavBar';
 import styles from './App.module.scss';
 import { Theme } from '../../types';
 
@@ -14,11 +15,14 @@ function App() {
   }
 
   return (
+    <main className={`${styles.page} ${styles[theme]}`}>
     <section className={`${styles.app} ${styles[theme]}`}>
       <Header logo={logo} theme={theme}></Header>
       <Dashboard theme={theme}></Dashboard>
+      <NavBar theme={theme}></NavBar>
       <ThemeSelect onChange={handleThemeChange} />
     </section>
+    </main>
   );
 }
 
