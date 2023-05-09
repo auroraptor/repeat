@@ -1,0 +1,45 @@
+@import "../../assets/colors.scss";
+@import "../../assets/fonts.scss";
+
+.cloudPart {
+  background-color: $myrtle;
+  position: absolute;
+
+  border-radius: 50%;
+  transform: rotate(19.49deg);
+}
+
+.part1 {
+  width: 146.62px;
+  height: 239.74px;
+  bottom: -30px;
+  left: -26.02px;
+}
+
+.part2 {
+  width: 112.72px;
+  height: 166px;
+  bottom: -20px;
+  left: 70.38px;
+}
+
+.part3 {
+  width: 146.62px;
+  height: 166px;
+  bottom: -50px;
+  left: 140.78px;
+}
+
+.part4 {
+  width: 146.62px;
+  height: 166px;
+  bottom: -60px;
+  left: 233.38px;
+}
+
+.part5 {
+  width: 114.25px;
+  height: 146.36px;
+  bottom: -90px;
+  left: 342.75px;
+}

@@ -5,6 +5,7 @@ import { Dashboard } from '../Dashboard/Dashboard';
 import { NavBar } from '../NavBar/NavBar';
 import styles from './App.module.scss';
 import { Theme } from '../../types';
+import { CloudsBackground } from '../CloudsBackground/CloudsBackground';
 
 function App() {
   const [theme, setTheme] = useState<Theme>("light");
@@ -22,6 +23,7 @@ function App() {
       <NavBar theme={theme}></NavBar>
       <ThemeSelect onChange={handleThemeChange} />
     </section>
+    <CloudsBackground></CloudsBackground>
     </main>
   );
 }
