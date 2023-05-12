@@ -3,10 +3,11 @@
 ## Описание
 Приветствую вас на странице моего пет-проекта, посвященного техникам обучения. Он создан на React с использованием SCSS Modules и TypeScript. Особое внимание уделила дизайну, в частности, стилизации чекбоксов.
 
-![Gif о стилизации чекбоксов](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWE5NTg1YTNlZDc1OGU5MzY1MjMxMjUzNzg2ZTY1NWZhMzVlYmRkMiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/Bw6CQDrYk0OD9wZ3CB/giphy.gif)
+[Здесь](https://www.figma.com/file/BgDrLkyCSN4aIch0hrzrRe/научиться-учиться?node-id=0%3A1&t=gIclbZS6ZnJnext9-1) вы можете ознакомиться с макетом проекта и убедиться, что работа дизайнера над этими кнопками и облаками была *вдохновляющей*.
 
-[Здесь](https://www.figma.com/file/BgDrLkyCSN4aIch0hrzrRe/научиться-учиться?node-id=0%3A1&t=gIclbZS6ZnJnext9-1) вы можете ознакомиться с макетом проекта и убедиться, что работа над этими кнопками и облаками была *вдохновляющей*.
-![Gif о стилизации чекбоксов](https://media.tenor.com/n36qbwYGTOAAAAAd/stable-ronaldo-dance.gif)
+<p align="center">
+  <img src="https://media.tenor.com/n36qbwYGTOAAAAAd/stable-ronaldo-dance.gif" alt="Gif о стилизации чекбоксов дизайнером">
+</p>
 
 ## История проекта
 Пет-проект "A Mind for Numbers" был вдохновлен моей первой учебной работой в Практикуме, ["Научиться учиться"](https://auroraptor.github.io/how-to-learn/). Это было моё первое погружение в профессиональную верстку и работу с ревьювером. Невероятно, как страх ошибки мог заставить меня замереть перед словом "треугольник". Однако, преодолев эмоциональные барьеры и активно используя техники обучения, описанные в книге Барбары Оакли "Думай как математик", я успешно завершила проект в срок. 
@@ -32,4 +33,6 @@
 
 *Примечание: Чекбокс с луной - мой финальный босс, скоро!*
 
-![Gif о стилизации чекбоксов](https://media.tenor.com/wUdaAg8Kms4AAAAd/sweaty-sweat.gif)
+<p align="center">
+  <img src="https://media.tenor.com/wUdaAg8Kms4AAAAd/sweaty-sweat.gif" alt="Gif о стилизации чекбоксов разработчиком">
+</p>
