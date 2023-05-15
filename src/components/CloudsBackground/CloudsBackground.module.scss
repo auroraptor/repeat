@@ -9,11 +9,15 @@
   transform: rotate(19.49deg);
 }
 
+.cloudPartLeft {
+  transform: rotate(-20deg);
+}
+
 .line {
   position: absolute;
   bottom: -265px;
   left: -0;
-  background-image: url('../../images/clouds__line.svg');
+  background-image: url("../../images/clouds__line.svg");
   width: 500px;
   height: 500px;
   background-repeat: no-repeat;
@@ -27,11 +31,25 @@
   left: -60px;
 }
 
+.part1left {
+  width: 142.21px;
+  height: 238.85px;
+  bottom: -40px;
+  right: -60px;
+}
+
 .part2 {
   width: 130px;
   height: 180px;
   bottom: -40px;
   left: 50px;
+}
+
+.part2left {
+  width: 79.51px;
+  height: 165.38px;
+  bottom: -20px;
+  right: 40px;
 }
 
 .part3 {
@@ -41,6 +59,13 @@
   left: 140.78px;
 }
 
+.part3left {
+  width: 109.33px;
+  height: 165.38px;
+  bottom: -40px;
+  right: 90px;
+}
+
 .part4 {
   width: 146.62px;
   height: 166px;
@@ -48,9 +73,30 @@
   left: 250px;
 }
 
+.part4left {
+  width: 142.21px;
+  height: 165.38px;
+  bottom: -70px;
+  right: 150px;
+}
+
 .part5 {
   width: 114.25px;
   height: 146.36px;
   bottom: -125px;
   left: 367px;
+}
+
+.part5left {
+  width: 142.21px;
+  height: 165.38px;
+  bottom: -110px;
+  right: 200px;
+}
+
+.part6left {
+  width: 73.54px;
+  height: 132.4px;
+  bottom: -110px;
+  right: 300px;
 }
