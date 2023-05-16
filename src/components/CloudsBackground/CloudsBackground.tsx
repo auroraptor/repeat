@@ -12,6 +12,8 @@ export function CloudsBackground() {
         <div className={`${styles.cloudPart} ${styles.part5}`}></div>
       </div>
       <div className={styles.cloudContainer}>
+      <div className={styles.lineRight} />
+
         <div className={`${styles.cloudPart} ${styles.cloudPartLeft} ${styles.part1left}`}></div>
         <div className={`${styles.cloudPart} ${styles.cloudPartLeft} ${styles.part2left}`}></div>
         <div className={`${styles.cloudPart} ${styles.cloudPartLeft} ${styles.part3left}`}></div>
