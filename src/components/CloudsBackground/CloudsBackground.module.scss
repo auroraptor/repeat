@@ -17,7 +17,18 @@
   position: absolute;
   bottom: -265px;
   left: -0;
-  background-image: url("../../images/clouds__line.svg");
+  background-image: url("../../images/clouds__line_left.svg");
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.lineRight {
+  position: absolute;
+  bottom: -270px;
+  right: 0px;
+  background-image: url("../../images/clouds__line_right.svg");
   width: 500px;
   height: 500px;
   background-repeat: no-repeat;
