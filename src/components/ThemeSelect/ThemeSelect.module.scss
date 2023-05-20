@@ -1,10 +1,13 @@
 @import "../../assets/colors.scss";
 
 .checkbox {
-    display: flex;
-    justify-content: start;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
     height: 51px;
     padding: 14px;
+    flex: 1;
+    z-index: 2;
   }
   
   .checkbox__container {
@@ -16,7 +19,6 @@
     position: relative;
     cursor: pointer;
     transition: 0.5s;
-    border: 2px solid #ffffff;
   }
   
   .checkbox__container {
