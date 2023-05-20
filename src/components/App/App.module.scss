@@ -16,6 +16,8 @@
   margin: 0 auto;
   height: 100vh;
   font-family: $Oswald;
+  display: flex;
+  flex-direction: column;
 }
 
 .light {
