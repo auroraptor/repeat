@@ -50,10 +50,6 @@
     transform: translateX(100%);
   }
   
-  // .checkbox__switch:checked + .checkbox__container {
-  //   background-color: #3ddc84;
-  // }
-  
   .checkbox__container:active:after {
     width: 13px;
   }
