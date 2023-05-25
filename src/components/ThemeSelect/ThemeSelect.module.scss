@@ -31,12 +31,15 @@
     content: "";
     width: 20px;
     height: 20px;
-    background-color: #fff;
+    background-color: $myrtle;
     position: absolute;
     border-radius: 50%;
     top: 4px;
     right: 28px;
     transition: 0.5s;
+    background-image: url('../../images/sun.svg');
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .checkbox__switch {
@@ -48,6 +51,7 @@
   .checkbox__switch:checked + .checkbox__container:after {
     right: calc(100% - 27px);
     transform: translateX(100%);
+    background-image: url('../../images/luna.svg');
   }
   
   .checkbox__container:active:after {
