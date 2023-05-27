@@ -14,6 +14,16 @@
 .link {
     text-decoration: none;
     padding: 8px 0;
+    display: flex;
+    justify-content: baseline;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-image: url('../../images/info.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .light {
