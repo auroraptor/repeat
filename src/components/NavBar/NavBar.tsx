@@ -10,7 +10,7 @@ export function NavBar({ theme }: Props) {
     <Link to="/" className={`${styles.link} ${styles[theme]}`}>Принципы обучения</Link>
     <Link to="/" className={`${styles.link} ${styles[theme]}`}>Метод Фейнмана</Link>
     <Link to="/" className={`${styles.link} ${styles[theme]}`}>Цифры и факты</Link>
-    <Link to="/" className={`${styles.link} ${styles[theme]}`}>Полезная информация</Link>
+    <Link to="/" className={`${styles.link} ${styles[theme]}`}>Полезная информация <div className={`${styles.icon}`}></div></Link>
    </nav>
   );
 }
