@@ -2,11 +2,6 @@
 @import "../../assets/fonts.scss";
 
 .nav {
-  font-family: $Comfortaa;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
   display: flex;
   justify-content: space-between;
 }
@@ -16,14 +11,11 @@
     padding: 8px 0;
     display: flex;
     justify-content: baseline;
-}
-
-.icon {
-  width: 20px;
-  height: 20px;
-  background-image: url('../../images/info.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
+    font-family: $Comfortaa;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .light {
@@ -36,6 +28,45 @@
   border-bottom: 2px dotted $white;
 }
 
-.dark:hover, .light:hover {
+.dark:hover, .light:hover, .button:hover {
   border-bottom: 2px solid;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  position: relative;
+
+  font-family: $Comfortaa;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0; 
+}
+
+.submenu__link {
+  text-decoration: none;
 }
