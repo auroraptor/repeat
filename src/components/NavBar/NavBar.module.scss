@@ -7,28 +7,29 @@
 }
 
 .link {
-    text-decoration: none;
-    padding: 8px 0;
-    display: flex;
-    justify-content: baseline;
-    font-family: $Comfortaa;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
+  text-decoration: none;
+  padding: 8px 0;
+  display: flex;
+  justify-content: baseline;
+  font-family: $Comfortaa;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  border-bottom: 2px dotted;
 }
 
 .light {
   color: $violet;
-  border-bottom: 2px dotted $violet;
 }
 
 .dark {
   color: $white;
-  border-bottom: 2px dotted $white;
 }
 
-.dark:hover, .light:hover, .button:hover {
+.dark:hover,
+.light:hover,
+.button:hover {
   border-bottom: 2px solid;
   cursor: pointer;
 }
@@ -40,6 +41,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
+  border-bottom: 2px dotted;
   background-color: transparent;
   position: relative;
 
@@ -48,7 +50,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
-  
 }
 
 .icon {
@@ -64,9 +65,24 @@
   position: absolute;
   bottom: 100%;
   left: 0;
-  right: 0; 
+  right: 0;
+  width: 100%;
+  transform-origin: bottom;
+  transform: scaleY(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.open {
+  transform: scaleY(1);
 }
 
 .submenu__link {
   text-decoration: none;
+  padding: 8px;
+  text-align: start;
+}
+
+.submenu__link:hover {
+  background-color: $myrtle;
+  border: none;
 }
