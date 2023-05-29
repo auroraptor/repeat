@@ -26,12 +26,10 @@ export function NavBar({ theme }: Props) {
         onClick={() => setSubmenuOpen(!submenuOpen)}
       >
         Полезная информация <InfoIcon className={`${styles.icon}`} />
-        {submenuOpen && (
-          <div className={styles.submenu}>
-            <Link to="/" className={styles.submenu__link}>Один полезный линк</Link>
-            <Link to="/" className={styles.submenu__link}>Другой полезный линк</Link>
+          <div className={`${styles.submenu} ${submenuOpen && styles.open}`}>
+            <Link to="/" className={`${styles.submenu__link} ${styles[theme]}`}>Один полезный линк</Link>
+            <Link to="/" className={`${styles.submenu__link} ${styles[theme]}`}>Другой полезный линк</Link>
           </div>
-        )}
       </button>
     </nav>
   );
