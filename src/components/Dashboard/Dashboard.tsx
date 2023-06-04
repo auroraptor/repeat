@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Dashboard.module.scss";
-import { Theme, Props } from "../../types";
+import { ThemeStyles, Props } from "../../types";
 
-type ThemeStyles = {
-  [key in Theme]: {
-    color: string;
-  };
-};
 
 export function Dashboard({ theme }: Props) {
   const lead = require("../../images/lead-illustration.png");
