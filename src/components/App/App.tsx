@@ -6,6 +6,7 @@ import { NavBar } from '../NavBar/NavBar';
 import styles from './App.module.scss';
 import { Theme } from '../../types';
 import { CloudsBackground } from '../CloudsBackground/CloudsBackground';
+import { Star } from '../Star/Star';
 
 function App() {
   const [theme, setTheme] = useState<Theme>("light");
@@ -24,6 +25,7 @@ function App() {
       <ThemeSelect onChange={handleThemeChange} />
     </section>
     <CloudsBackground></CloudsBackground>
+    <Star theme={theme}></Star>
     </main>
   );
 }
