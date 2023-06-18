@@ -36,3 +36,8 @@
 <p align="center">
   <img src="https://media.tenor.com/wUdaAg8Kms4AAAAd/sweaty-sweat.gif" alt="Gif о стилизации чекбоксов разработчиком">
 </p>
+
+## 🎉
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2VmYjU2YWE2NGNlMjE4MWNhYTFmZDU1NTI2ZjYzYzUzZTI5Y2M5MCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/vqHcgYbx89xNB8LWCU/giphy.gif" alt="Чекбокс смены темы>
+</p>
