@@ -6,7 +6,7 @@
 [Здесь](https://www.figma.com/file/BgDrLkyCSN4aIch0hrzrRe/научиться-учиться?node-id=0%3A1&t=gIclbZS6ZnJnext9-1) вы можете ознакомиться с макетом проекта и убедиться, что работа дизайнера над этими кнопками и облаками была *вдохновляющей*.
 
 <p align="center">
-  <img src="https://media.tenor.com/n36qbwYGTOAAAAAd/stable-ronaldo-dance.gif" alt="Gif о стилизации чекбоксов дизайнером">
+  <img src="https://media.tenor.com/n36qbwYGTOAAAAAd/stable-ronaldo-dance.gif" alt="Gif о стилизации чекбоксов дизайнером" style="width: 500px; height: 300px;">
 </p>
 
 ## История проекта
