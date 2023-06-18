@@ -34,10 +34,10 @@
 *Примечание: Чекбокс с луной - мой финальный босс, скоро!*
 
 <p align="center">
-  <img src="https://media.tenor.com/wUdaAg8Kms4AAAAd/sweaty-sweat.gif" alt="Gif о стилизации чекбоксов разработчиком">
+  <img src="https://media.tenor.com/wUdaAg8Kms4AAAAd/sweaty-sweat.gif" alt="Gif о стилизации чекбоксов разработчиком" style="width: 500px; height: 300px;">
 </p>
 
 ## 🎉
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2VmYjU2YWE2NGNlMjE4MWNhYTFmZDU1NTI2ZjYzYzUzZTI5Y2M5MCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/vqHcgYbx89xNB8LWCU/giphy.gif" alt="Чекбокс смены темы">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2VmYjU2YWE2NGNlMjE4MWNhYTFmZDU1NTI2ZjYzYzUzZTI5Y2M5MCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/vqHcgYbx89xNB8LWCU/giphy.gif" alt="Чекбокс смены темы" style="width: 500px; height: 300px;">
 </p>
