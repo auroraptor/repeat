@@ -1,5 +1,5 @@
 
-export type Theme = 'light' | 'dark';
+export type Theme = string;
 
 export type Props = {
   theme: Theme;
